@@ -1,0 +1,13 @@
+This project allows the user to 
+
+    Get a list of all books
+
+    Get a single book by ID
+
+    Add a new book
+
+    Update an existing book
+
+    Delete a book
+
+The client should POST the requests as form data with the application/json header...

@@ -1,0 +1,3 @@
+wget -O- --post-data='{"ID":"2","Title":"Concordance","Author":"Theologina","PublicationDate":"01/05/1970"}' \
+  --header='Content-Type:application/json' \
+  'http://localhost:8010/AddBook' > $1

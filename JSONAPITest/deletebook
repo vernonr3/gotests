@@ -1,0 +1,3 @@
+wget -O- --post-data='{"ID":"1"}' \
+  --header='Content-Type:application/json' \
+  'http://localhost:8010/DeleteBook' > $1

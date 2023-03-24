@@ -1,0 +1,1 @@
+wget -O- 'http://localhost:8010/GetBookList' > $1

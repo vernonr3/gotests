@@ -1,0 +1,3 @@
+wget -O- --post-data='{"ID":"1","Title":"Holy Bible - Revised standard Version","Author":"Various","PublicationDate":"01/01/1952"}' \
+  --header='Content-Type:application/json' \
+  'http://localhost:8010/UpdateBook' > $1
